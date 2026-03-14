@@ -15,6 +15,13 @@ void insertion(int arr[] , int n){
     }
 }
 
+
+void display (int arr[] , int n){
+    for (int i=0 ; i<n ; i++){
+        cout << arr[i] << " ";
+    }
+}
+
 int main(){
     int n;
     cout << "Enter the number of elements : ";
@@ -26,9 +33,8 @@ int main(){
         cin >> arr[i];
     }
     insertion(arr,n);
+    display(arr,n);
 
-    for (int ele : arr){
-        cout << ele << " ";
-    }
+
     return 0;
 }
