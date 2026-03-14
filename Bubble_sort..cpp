@@ -16,6 +16,12 @@ void bubbleSort(int arr[] , int n){
     }
 }
 
+void display(int arr[]){
+    for (int ele : arr){
+        cout << ele <<  " ";
+    }
+}
+
 int main(){
     int n;
     cin >> n;
