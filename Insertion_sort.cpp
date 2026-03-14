@@ -15,6 +15,7 @@ void insertion(int arr[] , int n){
     }
 }
 
+
 void display (int arr[] , int n){
     for (int i=0 ; i<n ; i++){
         cout << arr[i] << " ";
@@ -32,7 +33,8 @@ int main(){
         cin >> arr[i];
     }
     insertion(arr,n);
-
     display(arr,n);
+
+
     return 0;
 }
