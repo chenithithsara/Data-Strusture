@@ -16,9 +16,9 @@ void bubbleSort(int arr[] , int n){
     }
 }
 
-void display(int arr[]){
-    for (int ele : arr){
-        cout << ele <<  " ";
+void display(int arr[] , int n){
+    for (int i=0 ; i<n ; i++){
+        cout << arr[i] <<  " ";
     }
 }
 
@@ -36,7 +36,5 @@ int main(){
 
     bubbleSort(arr , n);
 
-    for (int ele : arr){
-        cout << ele << " ";
-    }
+    display(arr , n);
 }
