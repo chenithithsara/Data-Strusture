@@ -24,7 +24,9 @@ void display(int arr[] , int n){
 
 int main(){
     int n;
+    cout << "Enter the number of elements : ";
     cin >> n;
+    cout << "Enter the numbers space separated : ";
 
     int arr[n];
     int x;
